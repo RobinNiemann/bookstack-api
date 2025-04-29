@@ -2,7 +2,7 @@ import sys
 
 from bookstack_api.bookstack_api import BookStackAPI
 
-class ListHelper:
+class BookStackListHelper:
 
     def __init__(self, api: BookStackAPI):
         self.api = api
