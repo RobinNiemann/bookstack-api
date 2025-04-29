@@ -1,5 +1,5 @@
 import requests
-from bookstack_api.api_url import create_url_parameters_string
+from bookstack_api.url_builder import create_url_parameters_string
 
 class Books:
     
