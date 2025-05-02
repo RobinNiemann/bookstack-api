@@ -1,1 +1,1 @@
-from list_helper import BookStackListHelper
+from bookstack_api.helpers.list_helper import BookStackListHelper
