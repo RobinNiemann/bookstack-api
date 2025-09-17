@@ -4,7 +4,7 @@ A python API to access [BookStacks](https://github.com/BookStackApp/BookStack) R
 ## Install locally
 This Framework is not yet available on PyPi. To use it in other directories add
 
-`bookstack-api @ git+https://github.com/Turtuga-Community/bookstack-api@vx.x.x`
+`bookstack-api @ git+https://github.com/RobinNiemann/bookstack-api@vx.x.x`
 
 to your **requirements.txt**.
 
