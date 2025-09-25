@@ -1,4 +1,5 @@
 from bookstack_api.content_permissions import ContentPermissions
+from bookstack_api.image_gallery import ImageGallery
 from bookstack_api.shelves import Shelves
 from bookstack_api.books import Books
 from bookstack_api.pages import Pages
@@ -16,4 +17,5 @@ class BookStackAPI:
         self.pages = Pages(base_url, token_id, token_secret)
         self.content_permissions = ContentPermissions(base_url, token_id, token_secret)
         self.users = Users(base_url, token_id, token_secret)
+        self.image_gallery = ImageGallery(base_url, token_id, token_secret)
         
