@@ -25,3 +25,9 @@ class Pages:
         response = requests.put(api_url, json=body, headers={'Authorization': 'Token {0}:{1}'.format(self.token_id, self.token_secret)})
         response.raise_for_status()
         return response.json()
+
+    def create(self, body):
+        api_url = self.base_url + '/pages'
+        response = requests.post(api_url, json=body, headers={'Authorization': 'Token {0}:{1}'.format(self.token_id, self.token_secret)})
+        response.raise_for_status()
+        return response.json()
